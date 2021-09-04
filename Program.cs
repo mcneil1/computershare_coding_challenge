@@ -7,7 +7,7 @@ namespace Computershare
         static void Main(string[] args)
         {
             //path to txt file
-            string filepath = "ChallengeSampleDataSet2.txt";
+            string filepath = "ChallengeSampleDataSet1.txt";
 
             //Array for holding the stock values for each day
             float[] stocks = new float[30];
@@ -29,10 +29,8 @@ namespace Computershare
             }
 
             //store best buy/sell dates
-            float bestBuyPrice = 0;
             int buysDay = 0;
 
-            float bestSellsPrice = 0; 
             int sellsDay = 0;
 
             float bestDifference = 0; //store the current best profit margin
@@ -44,20 +42,16 @@ namespace Computershare
             foreach(float value in stocks)
             {
                 float buysPrice = value; //buy value we are comparing 
-                int buyDay = day;
-                for(int i = day+1; i <= stocks.Length; i++) //make sure that sell date is after the buy date
+                for(int sellDate = day+1; sellDate <= stocks.Length; sellDate++) //make sure that sell date is after the buy date
                 {
-                    float sellsPrice = stocks[i-1]; //sell value we are comparing
-                    int sellDay = i;
+                    float sellsPrice = stocks[sellDate-1]; //sell value we are comparing
 
                     float difference = sellsPrice - buysPrice; //calculate profit and compare against best profit so far
                     if (difference > bestDifference)
                     {
-                        bestBuyPrice = buysPrice;
-                        buysDay = buyDay;
+                        buysDay = day;
 
-                        bestSellsPrice = sellsPrice;
-                        sellsDay = sellDay;
+                        sellsDay = sellDate;
 
                         bestDifference = difference;
                     }
@@ -66,7 +60,7 @@ namespace Computershare
                 day++;
             }     
 
-            Console.WriteLine(buysDay+"("+bestBuyPrice+"),"+sellsDay+"("+bestSellsPrice+")");
+            Console.WriteLine(buysDay+"("+stocks[buysDay-1]+"),"+sellsDay+"("+stocks[sellsDay-1]+")");
         }
     }
 }
