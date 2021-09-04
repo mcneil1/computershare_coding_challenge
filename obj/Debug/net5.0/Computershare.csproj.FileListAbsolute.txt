@@ -1,0 +1,16 @@
+C:\Users\USER\Documents\Jobs\Computershare\bin\Debug\net5.0\Computershare.exe
+C:\Users\USER\Documents\Jobs\Computershare\bin\Debug\net5.0\Computershare.deps.json
+C:\Users\USER\Documents\Jobs\Computershare\bin\Debug\net5.0\Computershare.runtimeconfig.json
+C:\Users\USER\Documents\Jobs\Computershare\bin\Debug\net5.0\Computershare.runtimeconfig.dev.json
+C:\Users\USER\Documents\Jobs\Computershare\bin\Debug\net5.0\Computershare.dll
+C:\Users\USER\Documents\Jobs\Computershare\bin\Debug\net5.0\ref\Computershare.dll
+C:\Users\USER\Documents\Jobs\Computershare\bin\Debug\net5.0\Computershare.pdb
+C:\Users\USER\Documents\Jobs\Computershare\obj\Debug\net5.0\Computershare.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\Jobs\Computershare\obj\Debug\net5.0\Computershare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\Jobs\Computershare\obj\Debug\net5.0\Computershare.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Jobs\Computershare\obj\Debug\net5.0\Computershare.AssemblyInfo.cs
+C:\Users\USER\Documents\Jobs\Computershare\obj\Debug\net5.0\Computershare.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Jobs\Computershare\obj\Debug\net5.0\Computershare.dll
+C:\Users\USER\Documents\Jobs\Computershare\obj\Debug\net5.0\ref\Computershare.dll
+C:\Users\USER\Documents\Jobs\Computershare\obj\Debug\net5.0\Computershare.pdb
+C:\Users\USER\Documents\Jobs\Computershare\obj\Debug\net5.0\Computershare.genruntimeconfig.cache
